@@ -79,9 +79,16 @@ node default {
   }
 
   include chrome
+
+  include sublime_text
+  sublime_text::package { 'Emmet':
+    source => 'sergeche/emmet-sublime'
+  }
+
   
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,
     target => $boxen::config::repodir
   }
 }
+
