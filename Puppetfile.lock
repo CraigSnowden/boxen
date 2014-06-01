@@ -79,6 +79,11 @@ GITHUBTARBALL
     ruby (7.3.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-sublime_text
+  specs:
+    sublime_text (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
@@ -123,6 +128,7 @@ DEPENDENCIES
   repository (= 2.3.0)
   ruby (= 7.3.0)
   stdlib (= 4.1.0)
+  sublime_text (>= 0)
   sudo (= 1.0.0)
   xquartz (= 1.1.1)
 

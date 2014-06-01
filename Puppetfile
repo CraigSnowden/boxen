@@ -62,3 +62,4 @@ github "xquartz",     "1.1.1"
 
 github "chrome"
 github "sublime_text"
+github "spotify"

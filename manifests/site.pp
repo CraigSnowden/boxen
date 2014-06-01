@@ -84,6 +84,7 @@ node default {
   sublime_text::package { 'Emmet':
     source => 'sergeche/emmet-sublime'
   }
+  include spotify
 
   
   file { "${boxen::config::srcdir}/our-boxen":
